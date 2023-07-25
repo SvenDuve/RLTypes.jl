@@ -6,7 +6,7 @@ CurrentModule = RLTypes
 
 Documentation for [RLTypes](https://github.com/SvenDuve/RLTypes.jl).
 
-This package provides types for the reinforcement learning framework. The package is loaded by the specific algorithm packages, but also exports names into the main module of Julia. The package contains important types and functions that are shared between the packages:
+This package provides shared functionality for the reinforcement learning framework. The package is not only required by the specific algorithm packages, but also exports names into the main module of Julia. The package contains important types and functions that are shared between the packages:
 
 - DDPG
 - DQN
